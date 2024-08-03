@@ -3,7 +3,7 @@ import HomeContainer from "./ui/HomeContainer";
 
 function App() {
   return (
-    <div className="w-100">
+    <div >
       <NavigationMenu />
       <HomeContainer />
     </div>
