@@ -1,3 +1,5 @@
+import Logo from "../../assets/logo.png";
+
 const NavigationMenu = () => {
   return (
     <nav
@@ -6,7 +8,7 @@ const NavigationMenu = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-        <img src="src/assets/4b7d265c-0739-4722-b0c7-3017f7b7368f_120x@2x.avif" alt="Logo" width="100" height="50" />
+          <img src={Logo} alt="Logo" width="100" height="50" />
         </a>
         <button
           className="navbar-toggler"
@@ -19,7 +21,7 @@ const NavigationMenu = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        {/* <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
@@ -42,7 +44,7 @@ const NavigationMenu = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
