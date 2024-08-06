@@ -15,6 +15,7 @@ const WelcomeContainer = () => {
       autoPlay
       muted
       loop
+      playsInline
     />
   );
 };
