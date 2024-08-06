@@ -1,7 +1,11 @@
 import {Container, Description, Subtitle, TextContainer, Video} from "./styles";
 import PropTypes from "prop-types";
 
-const VideoContainer = ({data, subtitle, description, reverse}) => {
+
+const VideoContainer = ({data, subtitle, description, reverse, link}) => {
+  const handleClick = () => {
+    window.open(link, "_blank")
+  }
   return (
     <Container reverse={reverse}>
       <Video poster="image" preload="true" autoPlay muted loop playsInline>
@@ -16,7 +20,7 @@ const VideoContainer = ({data, subtitle, description, reverse}) => {
             style={{backgroundColor: "#4C2986", fontWeight: 500, color: "#fff"}}
             className="btn btn-lg"
             type="button"
-          >
+            onClick={handleClick}>
             Ver Coleção
           </button>
         </div>

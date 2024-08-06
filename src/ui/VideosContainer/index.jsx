@@ -14,6 +14,7 @@ function App() {
           "Nada tão legal, nada tão confortável, nada tão comprovado. O Nike Air Max 90 permanece fiel às suas raízes de corrida do OG, com a emblemática sola Waffle, sobreposições costuradas e detalhes clássicos em TPU. As cores clássicas celebram seu visual renovado, enquanto o amortecimento Max Air aumenta o conforto da viagem."
         }
         reverse={false}
+        link={"https://cae343-a4.myshopify.com/collections/samba"}
       />
       <VideoComponent
         data={Nmd}
@@ -22,6 +23,7 @@ function App() {
           "Baseado nos tênis de corrida e feito para as aventuras do dia a dia. Com padronagem granulada na entressola, este tênis adidas NMD_R1 é uma atualização do modelo original inspirado nos anos 80. O cabedal elástico de malha envolve os pés e garante conforto total. Você não terá nenhum problema se precisar andar o dia todo, graças ao solado de borracha aderente e ao retorno de energia da entressola BOOST sob os pés."
         }
         reverse={true}
+        link={"https://cae343-a4.myshopify.com/collections/samba"}
       />
       <VideoComponent
         data={Airmax97}
@@ -30,6 +32,7 @@ function App() {
           "Moderno. Estiloso. Simples. O design inspirado em água do Air Max 97 flui, quer você esteja correndo ou em uma noite na cidade. Amortecimento Nike Air de comprimento total permite correr com conforto de desempenho."
         }
         reverse={false}
+        link={"https://cae343-a4.myshopify.com/collections/samba"}
       />
       <VideoComponent
         data={Samba}
@@ -38,6 +41,7 @@ function App() {
           "O AD Originals Samba OG é um tênis icônico da adidas que combina estilo e conforto. Com o seu design clássico, ele proporciona uma performance excepcional e garante uma pisada macia e amortecida. Ideal para quem busca um calçado versátil e durável, perfeito para usar no dia a dia ou durante a prática de esportes."
         }
         reverse={true}
+        link={"https://cae343-a4.myshopify.com/collections/samba"}
       />
     </>
   );
