@@ -11,8 +11,14 @@ const VideoContainer = ({data, subtitle, description, reverse}) => {
       <TextContainer>
         <Subtitle>{subtitle}</Subtitle>
         <Description>{description}</Description>
-        <div class="d-flex justify-content-center my-4" >
-          <button style={{backgroundColor: "#4C2986", fontWeight: 500, color: "#fff"}} class="btn" type="button">Ver Coleção</button>
+        <div className="d-flex justify-content-center my-4">
+          <button
+            style={{backgroundColor: "#4C2986", fontWeight: 500, color: "#fff"}}
+            className="btn"
+            type="button"
+          >
+            Ver Coleção
+          </button>
         </div>
       </TextContainer>
     </Container>

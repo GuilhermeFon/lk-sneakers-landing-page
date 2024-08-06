@@ -1,6 +1,7 @@
-import airForce from "../../assets/air1.png";
-import airForce2 from "../../assets/air2.png";
-import airForce3 from "../../assets/air3.png";
+import Airmax from "../../../public/videos/airmax.mp4";
+import Airmax97 from "../../../public/videos/airmax97.mp4";
+import Nmd from "../../../public/videos/nmd.mp4";
+import Samba from "../../../public/videos/samba.mp4";
 
 const HomeContainer = () => {
   return (
@@ -29,21 +30,56 @@ const HomeContainer = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
-          <img src={airForce} className="d-block w-100" alt="..." />
+          <video
+            src={Airmax}
+            className="d-block w-100"
+            alt="..."
+            autoPlay
+            muted
+            loop
+          />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src={airForce2} className="d-block w-100" alt="..." />
+          <video
+            src={Airmax97}
+            className="d-block w-100"
+            alt="..."
+            autoPlay
+            muted
+            loop
+          />
           <div className="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src={airForce3} className="d-block w-100" alt="..." />
+          <video
+            src={Nmd}
+            className="d-block w-100"
+            alt="..."
+            autoPlay
+            muted
+            loop
+          />
+          <div className="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <video
+            src={Samba}
+            className="d-block w-100"
+            alt="..."
+            autoPlay
+            muted
+            loop
+          />
           <div className="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
