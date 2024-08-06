@@ -14,7 +14,7 @@ const VideoContainer = ({data, subtitle, description, reverse}) => {
         <div className="d-flex justify-content-center my-4">
           <button
             style={{backgroundColor: "#4C2986", fontWeight: 500, color: "#fff"}}
-            className="btn"
+            className="btn btn-lg"
             type="button"
           >
             Ver Coleção
