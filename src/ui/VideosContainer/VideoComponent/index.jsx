@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const VideoContainer = ({data, subtitle, description, reverse}) => {
   return (
     <Container reverse={reverse}>
-      <Video poster="image" preload="true" autoPlay muted loop>
+      <Video poster="image" preload="true" autoPlay muted loop playsInline>
         <source src={data} type="video/mp4" />
         Your browser does not support the video tag.
       </Video>
