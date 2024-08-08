@@ -1,5 +1,6 @@
 import VideosContainer from "./ui/VideosContainer";
 import WelcomeContainer from "./ui/WelcomeContainer";
+import FooterContainer from "./ui/FooterContainer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* <HomeContainer /> */}
       <WelcomeContainer />
       <VideosContainer />
+      <FooterContainer />
     </div>
   );
 }
