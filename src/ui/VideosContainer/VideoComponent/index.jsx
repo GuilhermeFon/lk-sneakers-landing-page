@@ -1,11 +1,10 @@
 import {Container, Description, Subtitle, TextContainer, Video} from "./styles";
 import PropTypes from "prop-types";
 
-
 const VideoContainer = ({data, subtitle, description, reverse, link}) => {
   const handleClick = () => {
-    window.open(link, "_blank")
-  }
+    window.open(link, "_blank");
+  };
   return (
     <Container reverse={reverse}>
       <Video poster="image" preload="true" autoPlay muted loop playsInline>
@@ -20,7 +19,8 @@ const VideoContainer = ({data, subtitle, description, reverse, link}) => {
             style={{backgroundColor: "#4C2986", fontWeight: 500, color: "#fff"}}
             className="btn btn-lg"
             type="button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             Ver Coleção
           </button>
         </div>
@@ -33,7 +33,8 @@ VideoContainer.propTypes = {
   data: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  reverse: PropTypes.bool,
+  reverse: PropTypes.bool.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default VideoContainer;
