@@ -1,8 +1,7 @@
 import {useState, useEffect} from "react";
-import WelcomeDesktop from "../../../public/videos/welcome.mp4";
-import WelcomeMobile from "../../../public/videos/welcome-mobile.mp4";
+import PropTypes from "prop-types";
 
-const WelcomeContainer = () => {
+const WelcomeContainer = ({WelcomeDesktop, WelcomeMobile}) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
@@ -34,6 +33,11 @@ const WelcomeContainer = () => {
       playsInline
     />
   );
+};
+
+WelcomeContainer.propTypes = {
+  WelcomeDesktop: PropTypes.string,
+  WelcomeMobile: PropTypes.string,
 };
 
 export default WelcomeContainer;
