@@ -4,7 +4,7 @@ import Whatsapp from "../../assets/whatsapp.png";
 
 const HeaderContainer = () => {
   const handleClickOnSite = () => {
-    window.open("https://cae343-a4.myshopify.com/", "_blank");
+    window.open("https://lksneakers.com/", "_blank");
   };
 
   const handleClickOnInstagram = () => {
@@ -79,7 +79,7 @@ const HeaderContainer = () => {
         </span>
       </div>
       <a
-        href="https://wa.me/+5553981368181?text=Olá, gostaria de mais informações sobre seus serviços."
+        href="https://wa.me/+555391674023?text=Olá, Olá, vi alguns modelos interessantes na loja, poderia me enviar mais detalhes?"
         target="_blank"
         style={{
           position: "fixed",
