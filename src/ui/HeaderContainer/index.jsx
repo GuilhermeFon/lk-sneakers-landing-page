@@ -79,7 +79,7 @@ const HeaderContainer = () => {
         </span>
       </div>
       <a
-        href="https://wa.me/+555391674023?text=Olá, Olá, vi alguns modelos interessantes na loja, poderia me enviar mais detalhes?"
+        href="https://wa.me/+555391674023?text=Olá, vi alguns modelos interessantes na loja, poderia me enviar mais detalhes?"
         target="_blank"
         style={{
           position: "fixed",
