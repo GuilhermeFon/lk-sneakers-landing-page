@@ -17,7 +17,7 @@ const WelcomeContainer = ({WelcomeDesktop, WelcomeMobile}) => {
   }, []);
 
   const handleClick = () => {
-    window.open("https://cae343-a4.myshopify.com/", "_blank");
+    window.open("https://lksneakers.com/", "_blank");
   };
 
   return (
