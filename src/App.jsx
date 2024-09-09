@@ -13,11 +13,13 @@ function App() {
       <WelcomeContainer
         WelcomeDesktop={WelcomeHeadDesktop}
         WelcomeMobile={WelcomeHeadMobile}
+        Footer={false}
       />
       <VideosContainer />
       <WelcomeContainer
         WelcomeDesktop={WelcomeFooterDesktop}
         WelcomeMobile={WelcomeFooterMobile}
+        Footer={true}
       />
     </div>
   );

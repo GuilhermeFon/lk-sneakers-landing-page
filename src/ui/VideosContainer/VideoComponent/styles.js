@@ -42,8 +42,10 @@ export const Subtitle = styled.h2`
   color: #ffff;
   font-weight: 800;
   font-size: 48px;
+  text-align: center;
 `;
 
 export const Description = styled.p`
   color: #ffff;
+  text-align: center;
 `;
