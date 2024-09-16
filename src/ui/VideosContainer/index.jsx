@@ -1,8 +1,8 @@
 import VideoComponent from "./VideoComponent";
-import Dunk from "../../../public/videos/dunk.webm";
-import NewBalance from "../../../public/videos/new-balance.webm";
-import OffWhite from "../../../public/videos/off-white.webm";
-import Samba from "../../../public/videos/samba.webm";
+import Dunk from "../../../public/videos/dunk.mp4";
+import NewBalance from "../../../public/videos/new-balance.mp4";
+import OffWhite from "../../../public/videos/off-white.mp4";
+import Samba from "../../../public/videos/samba.mp4";
 
 function App() {
   return (
