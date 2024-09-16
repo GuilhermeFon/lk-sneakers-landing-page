@@ -1,10 +1,10 @@
 import VideosContainer from "./ui/VideosContainer";
 import WelcomeContainer from "./ui/WelcomeContainer";
 import HeaderContainer from "./ui/HeaderContainer";
-import WelcomeFooterDesktop from "../public/videos/welcome.mp4";
-import WelcomeFooterMobile from "../public/videos/welcome-mobile.mp4";
-import WelcomeHeadDesktop from "../public/videos/welcome-head.mp4";
-import WelcomeHeadMobile from "../public/videos/welcome-head-mobile.mp4";
+import WelcomeFooterDesktop from "../public/videos/welcome.webm";
+import WelcomeFooterMobile from "../public/videos/welcome-mobile.webm";
+import WelcomeHeadDesktop from "../public/videos/welcome-head.webm";
+import WelcomeHeadMobile from "../public/videos/welcome-head-mobile.webm";
 
 function App() {
   return (
